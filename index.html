@@ -23,7 +23,12 @@
         <div class="login_form__inputsContainer">
           <div class="login_form__input">
             <i class="fa fa-envelope-o" aria-hidden="true"></i
-            ><input type="text" placeholder="Enter your username..." />
+            ><input
+              type="text"
+              id="username"
+              pattern="/[a-zA-Z]/g"
+              placeholder="Enter your username..."
+            />
           </div>
           <div class="login_form__input">
             <i class="fa fa-key" aria-hidden="true"></i
